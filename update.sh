@@ -9,4 +9,7 @@ if ! command -v icewm &> /dev/null
 then
     sudo apt -y install icewm
 fi
-
+if ! command -v startx &> /dev/null
+then
+    sudo apt -y install xinit
+fi
