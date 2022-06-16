@@ -4,3 +4,9 @@ then
     echo "The apt command is not found"
     exit
 fi
+sudo apt update
+if ! command -v icewm &> /dev/null
+then
+    sudo apt -y install icewm
+fi
+
