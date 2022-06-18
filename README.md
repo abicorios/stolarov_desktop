@@ -14,3 +14,7 @@ docker image ls
 docker rmi <image id>
 ```
 Also you can read the source code of this repo, and the learning course by Stolarov.
+
+# References
+
+Additional information about the Webtop: https://docs.linuxserver.io/images/docker-webtop
