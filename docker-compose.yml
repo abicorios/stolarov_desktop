@@ -2,7 +2,7 @@
 version: "2.1"
 services:
   webtop:
-    image: lscr.io/linuxserver/webtop:ubuntu-icewm
+    build: .
     container_name: webtop
     security_opt:
       - seccomp:unconfined #optional
