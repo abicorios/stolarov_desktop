@@ -7,7 +7,7 @@ if test -f ~/.Xdefaults; then
     if ! grep -q 'xterm\*foreground: lightgray' ~/.Xdefaults; then
         echo 'xterm*foreground: lightgray' >> ~/.Xdefaults
     fi
-    if ! grep -q 'XTerm*VT100*selectToClipboard: true' ~/.Xdefaults; then
+    if ! grep -q 'XTerm\*VT100\*selectToClipboard: true' ~/.Xdefaults; then
         echo 'XTerm*VT100*selectToClipboard: true' >> ~/.Xdefaults
     fi
 else
