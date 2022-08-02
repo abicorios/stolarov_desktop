@@ -15,3 +15,6 @@ else
     echo 'xterm*foreground: lightgray' >> ~/.Xdefaults
     echo 'XTerm*VT100*selectToClipboard: true' >> ~/.Xdefaults
 fi
+sudo apt update
+sudo apt install dialog apt-utils -y
+sudo apt install -y vim joe nano fpc nasm gcc make gdb mc less
